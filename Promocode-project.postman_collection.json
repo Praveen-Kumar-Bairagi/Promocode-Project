@@ -1,0 +1,93 @@
+{
+	"info": {
+		"_postman_id": "547ffe97-5acc-4acd-961d-d5d9b3e52ff7",
+		"name": "Promocode-project",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "localhost:2005/coupens",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:2005/coupens",
+					"host": [
+						"localhost"
+					],
+					"port": "2005",
+					"path": [
+						"coupens"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:2005/coupens",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"Promocodetype\":\"type male or female\" ,\n    \"startdate\":\"type startdate\",\n    \"enddate\": \"typenddate\",\n    \"maxdiscount\":\"type maxdiscount\"\n\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:2005/coupens",
+					"host": [
+						"localhost"
+					],
+					"port": "2005",
+					"path": [
+						"coupens"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:2005/coupens",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"id\":\"123\",\n    \"Birthdate\":\"1234\",\n    \"Gender\":\"male\",\n    \"Orderamount\":\"100\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:2005/user",
+					"host": [
+						"localhost"
+					],
+					"port": "2005",
+					"path": [
+						"user"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
